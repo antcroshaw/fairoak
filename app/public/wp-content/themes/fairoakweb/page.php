@@ -2,7 +2,7 @@
 get_header();
 
 ?>
-<div class="container">
+<div class="container container--narrow page-section">
 
 
     <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%">

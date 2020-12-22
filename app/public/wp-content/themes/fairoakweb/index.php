@@ -7,7 +7,7 @@ get_header();
     <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%">
     <hr>
     <div class="row">
-        <div class="col-6 d-flex align-items-stretch">
+        <div class="col-sm-6 d-flex align-items-stretch">
             <div class="card rounded-lg"><div class="card-header rounded-lg text-uppercase text-secondary font-weight-bolder">Welcome to the site</div><div class="card-body">
                     <p>This is a small business dedicated to making equally small and friendly websites for personal use, for instance blog sites, and
                         also business use. This could be anything from selling hats to photography. Or even a hobby site, like archery . Of course wordpress sites
@@ -18,7 +18,7 @@ get_header();
                         <a href="https://www.digitalocean.com">Digital Ocean</a> as our hosting platform, which has a lot of benefits and is explained in more detail <a href="#">here .</a></p>
 
                 </div></div></div>
-        <div class="col-6 d-flex align-items-stretch">
+        <div class="col-sm-6 d-flex align-items-stretch">
             <div class="card rounded-lg"><div class="card-header rounded-lg text-uppercase text-secondary font-weight-bolder">Our Services</div><div class="card-body">
                     <p>The field of web development is pretty large, and can be very confusing if you're not that technical , which makes choosing
                         a website for your business even more of a headache. To help matters along we have listed all the different types of work we do,

@@ -1,9 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="<? language_attributes();?>">
 <head>
+    <meta charset="<?php bloginfo('charset');?>"
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <?php wp_head();?>
 </head>
-<body>
+<body <?php body_class();?>>
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
