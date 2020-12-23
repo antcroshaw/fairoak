@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88664679-1e54-4654-bac9-9f2082664206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/front-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +72,7 @@
       <workItem from="1608656314772" duration="550000" />
       <workItem from="1608656977042" duration="169000" />
       <workItem from="1608669269140" duration="220000" />
-      <workItem from="1608669583808" duration="738000" />
+      <workItem from="1608669583808" duration="8886000" />
     </task>
     <servers />
   </component>

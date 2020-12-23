@@ -13,11 +13,111 @@ Version: 1.0
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
+.isCurrentPage {
+    font-weight: bolder;
+}
 .footer {
     text-align: center;
     font-weight: lighter;
     font-size:smaller;
+}
+.metabox {
+    background-color: lightgrey;
+    border-radius: 3px;
+    padding: 10px 15px;
+    display: inline-block;
+
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, .07);
+
+}
+.metabox--position-up {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+}
+.metabox--with-home-link {
+    padding: 0;
+}
+.metabox__main {
+    padding: 10px 15px 10px 11px;
+}
+.metabox p {
+    margin: 0;
+    font-size: .9rem;
+    color: darkgrey;
+}
+.metabox a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.metabox a:hover {
+    text-decoration: underline;
+}
+.metabox .metabox__blog-home-link {
+    background-color:#3490dc;
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 3px 0 0 3px;
+    font-weight: normal;
+}
+.metabox .metabox__blog-home-link:hover {
+    text-decoration: none;
+    background-color: darkgrey;
+}
+
+.post-item {
+    border-bottom: 1px dotted #DEDEDE;
+    padding-bottom: 1.7rem;
+    margin-bottom: 1.7rem;
+}
+.post-item:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.headline--large-medium {
+    font-size: 5rem;
+    margin: 0 0 1rem 0;
+}
+.headline--medium {
+    font-size: 1.4rem;
+    margin-bottom: .75rem;
+}
+@media (min-width: 530px) {
+    .headline--medium {
+        font-size: 3.125rem
+    }
+}
+.headline--small-plus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6875rem;
+    font-weight: 400;
+    margin-bottom: 1.9rem;
+}
+.headline--small {
+    font-size: 1.2rem;
+    margin-bottom: 1.9rem;
+}
+@media (min-width: 530px) {
+    .headline--small {
+        font-size: 1.6875rem
+    }
+}
+.headline--smaller {
+    font-size: 1.5rem;
+}
+.headline--tiny {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3875rem;
+    margin-bottom: .25rem;
+}
+.headline--post-title a {
+    color: lightgrey;
+    text-decoration: none;
+}
+.headline--post-title a:hover {
+    text-decoration: underline;
 }
 
 :root {
