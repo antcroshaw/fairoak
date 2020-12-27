@@ -22,7 +22,7 @@
                     <a class="nav-link <?php if(is_page('about-me')) echo 'isCurrentPage'?>" href="<?php echo site_url('about-me') ?>">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php if(is_page('posts')) echo 'isCurrentPage'?>" href="<?php echo site_url('blog') ?>">Blog</a>
+                    <a class="nav-link <?php if(get_post_type() == 'post') echo 'isCurrentPage'?>" href="<?php echo site_url('blog') ?>">Blog</a>
                 </li>
 
 

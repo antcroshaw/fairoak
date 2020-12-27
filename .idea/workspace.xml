@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88664679-1e54-4654-bac9-9f2082664206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/front-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/single.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/archive.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/wp-content/themes/fairoakweb/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sql/local.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/local.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,10 @@
       <workItem from="1608656314772" duration="550000" />
       <workItem from="1608656977042" duration="169000" />
       <workItem from="1608669269140" duration="220000" />
-      <workItem from="1608669583808" duration="8886000" />
+      <workItem from="1608669583808" duration="9120000" />
+      <workItem from="1608737481830" duration="1065000" />
+      <workItem from="1608740418154" duration="2243000" />
+      <workItem from="1608782125528" duration="1019000" />
     </task>
     <servers />
   </component>
