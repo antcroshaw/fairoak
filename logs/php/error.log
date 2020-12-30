@@ -1,1 +1,98 @@
 [21-Dec-2020 17:00:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/index.php on line 66
+[28-Dec-2020 17:30:08 UTC] PHP Warning:  Use of undefined constant ‘theme_location’ - assumed '‘theme_location’' (this will throw an Error in a future version of PHP) in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/header.php on line 20
+[28-Dec-2020 17:30:08 UTC] PHP Stack trace:
+[28-Dec-2020 17:30:08 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[28-Dec-2020 17:30:08 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[28-Dec-2020 17:30:08 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[28-Dec-2020 17:30:08 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
+[28-Dec-2020 17:30:08 UTC] PHP   5. get_header() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/front-page.php:3
+[28-Dec-2020 17:30:08 UTC] PHP   6. locate_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:48
+[28-Dec-2020 17:30:08 UTC] PHP   7. load_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:676
+[28-Dec-2020 17:30:08 UTC] PHP   8. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:730
+[28-Dec-2020 17:30:08 UTC] PHP Warning:  Use of undefined constant ‘headerMenuLocation’ - assumed '‘headerMenuLocation’' (this will throw an Error in a future version of PHP) in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/header.php on line 20
+[28-Dec-2020 17:30:08 UTC] PHP Stack trace:
+[28-Dec-2020 17:30:08 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[28-Dec-2020 17:30:08 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[28-Dec-2020 17:30:08 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[28-Dec-2020 17:30:08 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
+[28-Dec-2020 17:30:08 UTC] PHP   5. get_header() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/front-page.php:3
+[28-Dec-2020 17:30:08 UTC] PHP   6. locate_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:48
+[28-Dec-2020 17:30:08 UTC] PHP   7. load_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:676
+[28-Dec-2020 17:30:08 UTC] PHP   8. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:730
+[28-Dec-2020 17:30:16 UTC] PHP Warning:  Use of undefined constant ‘theme_location’ - assumed '‘theme_location’' (this will throw an Error in a future version of PHP) in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/header.php on line 20
+[28-Dec-2020 17:30:16 UTC] PHP Stack trace:
+[28-Dec-2020 17:30:16 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[28-Dec-2020 17:30:16 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[28-Dec-2020 17:30:16 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[28-Dec-2020 17:30:16 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
+[28-Dec-2020 17:30:16 UTC] PHP   5. get_header() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/page.php:2
+[28-Dec-2020 17:30:16 UTC] PHP   6. locate_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:48
+[28-Dec-2020 17:30:16 UTC] PHP   7. load_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:676
+[28-Dec-2020 17:30:16 UTC] PHP   8. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:730
+[28-Dec-2020 17:30:16 UTC] PHP Warning:  Use of undefined constant ‘headerMenuLocation’ - assumed '‘headerMenuLocation’' (this will throw an Error in a future version of PHP) in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/header.php on line 20
+[28-Dec-2020 17:30:16 UTC] PHP Stack trace:
+[28-Dec-2020 17:30:16 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[28-Dec-2020 17:30:16 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[28-Dec-2020 17:30:16 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[28-Dec-2020 17:30:16 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
+[28-Dec-2020 17:30:16 UTC] PHP   5. get_header() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/page.php:2
+[28-Dec-2020 17:30:16 UTC] PHP   6. locate_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:48
+[28-Dec-2020 17:30:16 UTC] PHP   7. load_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:676
+[28-Dec-2020 17:30:16 UTC] PHP   8. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:730
+[28-Dec-2020 17:30:17 UTC] PHP Warning:  Use of undefined constant ‘theme_location’ - assumed '‘theme_location’' (this will throw an Error in a future version of PHP) in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/header.php on line 20
+[28-Dec-2020 17:30:17 UTC] PHP Stack trace:
+[28-Dec-2020 17:30:17 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[28-Dec-2020 17:30:17 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[28-Dec-2020 17:30:17 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[28-Dec-2020 17:30:17 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
+[28-Dec-2020 17:30:17 UTC] PHP   5. get_header() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/front-page.php:3
+[28-Dec-2020 17:30:17 UTC] PHP   6. locate_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:48
+[28-Dec-2020 17:30:17 UTC] PHP   7. load_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:676
+[28-Dec-2020 17:30:17 UTC] PHP   8. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:730
+[28-Dec-2020 17:30:17 UTC] PHP Warning:  Use of undefined constant ‘headerMenuLocation’ - assumed '‘headerMenuLocation’' (this will throw an Error in a future version of PHP) in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/header.php on line 20
+[28-Dec-2020 17:30:17 UTC] PHP Stack trace:
+[28-Dec-2020 17:30:17 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[28-Dec-2020 17:30:17 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[28-Dec-2020 17:30:17 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[28-Dec-2020 17:30:17 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
+[28-Dec-2020 17:30:17 UTC] PHP   5. get_header() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/front-page.php:3
+[28-Dec-2020 17:30:17 UTC] PHP   6. locate_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:48
+[28-Dec-2020 17:30:17 UTC] PHP   7. load_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:676
+[28-Dec-2020 17:30:17 UTC] PHP   8. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:730
+[29-Dec-2020 09:57:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/functions.php on line 15
+[30-Dec-2020 07:17:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_chosen_jquery' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[30-Dec-2020 07:17:26 UTC] PHP Stack trace:
+[30-Dec-2020 07:17:26 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[30-Dec-2020 07:17:26 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[30-Dec-2020 07:17:26 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[30-Dec-2020 07:17:26 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
+[30-Dec-2020 07:17:26 UTC] PHP   5. get_header() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/index.php:3
+[30-Dec-2020 07:17:26 UTC] PHP   6. locate_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:48
+[30-Dec-2020 07:17:26 UTC] PHP   7. load_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:676
+[30-Dec-2020 07:17:26 UTC] PHP   8. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:730
+[30-Dec-2020 07:17:26 UTC] PHP   9. wp_head() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/header.php:7
+[30-Dec-2020 07:17:26 UTC] PHP  10. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:3005
+[30-Dec-2020 07:17:26 UTC] PHP  11. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[30-Dec-2020 07:17:26 UTC] PHP  12. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[30-Dec-2020 07:17:26 UTC] PHP  13. wp_enqueue_scripts() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:287
+[30-Dec-2020 07:17:26 UTC] PHP  14. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/script-loader.php:2004
+[30-Dec-2020 07:17:26 UTC] PHP  15. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[30-Dec-2020 07:17:26 UTC] PHP  16. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[30-Dec-2020 07:17:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'enqueue_chosen_jquery' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[30-Dec-2020 07:17:30 UTC] PHP Stack trace:
+[30-Dec-2020 07:17:30 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[30-Dec-2020 07:17:30 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[30-Dec-2020 07:17:30 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[30-Dec-2020 07:17:30 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
+[30-Dec-2020 07:17:30 UTC] PHP   5. get_header() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/index.php:3
+[30-Dec-2020 07:17:30 UTC] PHP   6. locate_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:48
+[30-Dec-2020 07:17:30 UTC] PHP   7. load_template() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:676
+[30-Dec-2020 07:17:30 UTC] PHP   8. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template.php:730
+[30-Dec-2020 07:17:30 UTC] PHP   9. wp_head() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/header.php:7
+[30-Dec-2020 07:17:30 UTC] PHP  10. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/general-template.php:3005
+[30-Dec-2020 07:17:30 UTC] PHP  11. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[30-Dec-2020 07:17:30 UTC] PHP  12. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[30-Dec-2020 07:17:30 UTC] PHP  13. wp_enqueue_scripts() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:287
+[30-Dec-2020 07:17:30 UTC] PHP  14. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/script-loader.php:2004
+[30-Dec-2020 07:17:30 UTC] PHP  15. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[30-Dec-2020 07:17:30 UTC] PHP  16. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311

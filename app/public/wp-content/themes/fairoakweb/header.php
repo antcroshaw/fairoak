@@ -24,6 +24,10 @@
                 <li class="nav-item">
                     <a class="nav-link <?php if(get_post_type() == 'post') echo 'isCurrentPage'?>" href="<?php echo site_url('blog') ?>">Blog</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php if(get_post_type() == 'article') echo 'isCurrentPage'?>" href="<?php echo site_url('articles') ?>">Articles</a>
+                </li>
+
 
 
             </ul>

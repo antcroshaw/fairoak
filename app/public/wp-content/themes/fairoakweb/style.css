@@ -12,9 +12,16 @@ Version: 1.0
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.nav-item a {
+    color: grey;
+}
 
 .isCurrentPage {
-    font-weight: bolder;
+    font-weight:bolder;
+}
+.nav-item a:hover {
+    color: darkgrey;
+    text-decoration: none;
 }
 .footer {
     text-align: center;
@@ -11046,4 +11053,5 @@ a.text-dark:focus {
         border-color: #dee2e6;
     }
 }
+
 
