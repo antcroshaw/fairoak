@@ -6,7 +6,7 @@ get_header();
 <div class="container">
 
     <div>
-        <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%">
+        <a href="<?php echo site_url();?>"><img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%"></a>
         <hr>
         <div class="metabox metabox--with-home-link">
             <p><a class="metabox__blog-home-link" href="<?php echo site_url('/blog'); ?>">

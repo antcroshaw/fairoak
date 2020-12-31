@@ -5,7 +5,7 @@ get_header();
 ?>
 <div class="container">
     <div>
-        <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%">
+        <a href="<?php echo site_url();?>"> <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%"></a>
         <hr>
         <div class="row">
             <div class="col-sm-6 d-flex align-items-stretch">
@@ -71,6 +71,40 @@ get_header();
             wp_reset_postdata();
             ?>
 </ul></div>
+        </div>
+        <hr>
+        <div class="card rounded-lg">
+            <div class="card-header rounded-lg text-uppercase text-secondary font-weight-bolder has-text-align-center"> Latest Articles </div>
+            <div class="card-body">
+                <ul style="list-style-type: none">
+                    <?php
+                    // Define our WP Query Parameters
+                    $articles_query = new WP_Query( array(
+                            'posts_per_page'=> 2,
+                        'post_type' => 'article')); ?>
+
+
+                    <?php
+                    // Start our WP Query
+                    while ($articles_query -> have_posts()) : $articles_query -> the_post();
+// Display the Post Title with Hyperlink
+                        ?>
+
+
+                        <li ><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+
+
+                        <li><?php
+                            // Display the Post Excerpt
+                            the_excerpt(); ?></li>
+
+
+                    <?php
+// Repeat the process and reset once it hits the limit
+                    endwhile;
+                    wp_reset_postdata();
+                    ?>
+                </ul></div>
         </div>
         <hr>
         <div class="card"><div class="card-header text-uppercase text-secondary font-weight-bolder"> Website Portfolio </div>

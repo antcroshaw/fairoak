@@ -3,6 +3,8 @@
 function fairoak_post_types(){
     register_post_type('article',array(
         'public' => true,
+        'show_in_rest' => true,
+        'supports' => array('title','editor','excerpt'),
         'has_archive' => true,
         'rewrite'=>array('slug'=>'articles'),
         'menu_icon'=> 'dashicons-media-text',

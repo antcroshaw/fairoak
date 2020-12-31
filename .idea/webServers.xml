@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="bca4e78c-e993-448c-aba7-dd08d07e516a" name="fairoak">
+      <webServer id="bca4e78c-e993-448c-aba7-dd08d07e516a" name="fairoak" url="http://www.fairoakwebdev.co.uk">
         <fileTransfer rootFolder="/var/www/fairoakwebdev.co.uk" accessType="SFTP" host="209.97.178.50" port="22" sshConfigId="7872d85f-8593-40bb-b9db-98fa9ac89d2d" sshConfig="acroshaw@209.97.178.50:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />

@@ -5,7 +5,7 @@ get_header();
 ?>
     <div class="container">
     <div>
-        <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%">
+        <a href="<?php echo site_url();?>"><img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%"></a>
         <hr>
         <?php
         while(have_posts()){
