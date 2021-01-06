@@ -6,7 +6,8 @@ while(have_posts()){
 <div class="container container--narrow page-section">
 
 
-    <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%">
+    <a href="<?php echo site_url() ?>">
+        <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" style="width:50%"></a>
     <hr>
     <div class="row">
         <div class="col-12 rounded-lg"><div class="card">

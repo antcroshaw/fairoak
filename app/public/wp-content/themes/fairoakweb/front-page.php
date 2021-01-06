@@ -110,11 +110,20 @@ get_header();
         <div class="card"><div class="card-header text-uppercase text-secondary font-weight-bolder"> Website Portfolio </div>
 
             <div class="row p-3">
+                <?php
+                $portfolios = new WP_Query(array(
+                        'post_type'=> 'portfolio',
+                        'posts_per_page' => 3,
+                        'order' => 'ASC'
+                ));
+               while($portfolios->have_posts()) {
+                   $portfolios->the_post();
 
-                <div class="col-4 d-flex align-items-stretch"><div class="card"><img src="<?php echo get_theme_file_uri('/images/ccsite.png')?>" width="100%" class="text-align-center"/></div></div>
-                <div class="col-4 d-flex align-items-stretch"><div class="card"><img src="<?php echo get_theme_file_uri('/images/croshawsite.png')?>" width="100%"/></div></div>
-                <div class="col-4 d-flex align-items-stretch"><div class="card"><img src="<?php echo get_theme_file_uri('/images/petcaresite.png')?>" width="100%"/></div></div>
-                <br>
+                   ?>
+                   <div class="col-4 d-flex align-items-stretch"><div class="card"><a href="<?php the_permalink();?>"> <?php  the_post_thumbnail('front_page_portfolio');?></a></div></div>
+
+<?php } ?>
+
             </div>
         </div>
     </div>

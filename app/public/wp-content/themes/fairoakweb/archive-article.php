@@ -10,7 +10,7 @@ get_header();
         <hr>
         <div class="metabox metabox--with-home-link">
             <p><a class="metabox__blog-home-link" href="<?php echo site_url('/articles'); ?>">
-                    <i class="fa fa-home" aria-hidden="true"></i> Articles Home</a>
+                    <i class="fa fa-home" aria-hidden="true"></i>Articles Home</a>
                 <span class="metabox__main"><?php the_archive_title(); ?></span></p>
         </div>
         <?php

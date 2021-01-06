@@ -42,3 +42,7 @@
 [30-Dec-2020 08:25:05] NOTICE: exiting, bye-bye!
 [30-Dec-2020 08:30:59] NOTICE: fpm is running, pid 1078
 [30-Dec-2020 08:30:59] NOTICE: ready to handle connections
+[02-Jan-2021 07:03:32] NOTICE: Terminating ...
+[02-Jan-2021 07:03:32] NOTICE: exiting, bye-bye!
+[02-Jan-2021 07:03:35] NOTICE: fpm is running, pid 22866
+[02-Jan-2021 07:03:35] NOTICE: ready to handle connections

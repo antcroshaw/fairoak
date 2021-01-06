@@ -14,10 +14,13 @@ add_action('wp_enqueue_scripts','fairoak_files');
 
 function fairoak_features(){
     add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
+    add_image_size('front_page_portfolio',250,350,true);
+    add_image_size('index_page_portfolio',300,300,true);
 
 };
 
-
+add_action('after_setup_theme','fairoak_features');
 
 
 

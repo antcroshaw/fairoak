@@ -30,6 +30,9 @@
                 <li class="nav-item">
                     <a class="nav-link <?php if(get_post_type() == 'article') echo 'isCurrentPage'?>" href="<?php echo site_url('articles') ?>">Articles</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php if(get_post_type() == 'portfolio') echo 'isCurrentPage'?>" href="<?php echo site_url('portfolios') ?>">Portfolio</a>
+                </li>
 
 
 

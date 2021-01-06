@@ -96,3 +96,221 @@
 [30-Dec-2020 07:17:30 UTC] PHP  14. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/script-loader.php:2004
 [30-Dec-2020 07:17:30 UTC] PHP  15. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
 [30-Dec-2020 07:17:30 UTC] PHP  16. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:28 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:28 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:28 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[02-Jan-2021 07:02:28 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[02-Jan-2021 07:02:28 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[02-Jan-2021 07:02:28 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[02-Jan-2021 07:02:28 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Jan-2021 07:02:28 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Jan-2021 07:02:28 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Jan-2021 07:02:28 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Jan-2021 07:02:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Jan-2021 07:02:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Jan-2021 07:02:28 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Jan-2021 07:02:28 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Jan-2021 07:02:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Jan-2021 07:02:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Jan-2021 07:02:28 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Jan-2021 07:02:28 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Jan-2021 07:02:28 UTC] PHP   9. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:28 UTC] PHP   9. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:28 UTC] PHP  10. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:28 UTC] PHP  10. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:28 UTC] PHP  11. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:28 UTC] PHP  11. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:28 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:28 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:28 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-cron.php:0
+[02-Jan-2021 07:02:28 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-cron.php:0
+[02-Jan-2021 07:02:28 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-cron.php:44
+[02-Jan-2021 07:02:28 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-cron.php:44
+[02-Jan-2021 07:02:28 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:02:28 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:02:28 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:02:28 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:28 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:02:28 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:28 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:28 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:28 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:28 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[02-Jan-2021 07:02:28 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[02-Jan-2021 07:02:28 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Jan-2021 07:02:28 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Jan-2021 07:02:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Jan-2021 07:02:28 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Jan-2021 07:02:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Jan-2021 07:02:28 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Jan-2021 07:02:28 UTC] PHP   9. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:28 UTC] PHP  10. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:28 UTC] PHP  11. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:28 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:28 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[02-Jan-2021 07:02:28 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[02-Jan-2021 07:02:28 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Jan-2021 07:02:28 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Jan-2021 07:02:28 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Jan-2021 07:02:28 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Jan-2021 07:02:28 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Jan-2021 07:02:28 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Jan-2021 07:02:28 UTC] PHP   9. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:28 UTC] PHP  10. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:28 UTC] PHP  11. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:29 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:29 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/index.php:0
+[02-Jan-2021 07:02:29 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/index.php:10
+[02-Jan-2021 07:02:29 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin.php:34
+[02-Jan-2021 07:02:29 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:02:29 UTC] PHP   5. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:02:29 UTC] PHP   6. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:29 UTC] PHP   7. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:29 UTC] PHP   8. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:30 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:30 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:30 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:02:30 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:02:30 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:02:30 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:02:30 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:02:30 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:02:30 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:02:30 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:02:30 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:30 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:30 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:30 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:30 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:30 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:30 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:30 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:02:30 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:02:30 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:02:30 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:02:30 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:30 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:30 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:30 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:30 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:02:30 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:02:30 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:02:30 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:02:30 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:30 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:30 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:02:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:02:46 UTC] PHP Stack trace:
+[02-Jan-2021 07:02:46 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[02-Jan-2021 07:02:46 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[02-Jan-2021 07:02:46 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:13
+[02-Jan-2021 07:02:46 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:02:46 UTC] PHP   5. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:02:46 UTC] PHP   6. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:02:46 UTC] PHP   7. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:02:46 UTC] PHP   8. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:03:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:03:36 UTC] PHP Stack trace:
+[02-Jan-2021 07:03:36 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[02-Jan-2021 07:03:36 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[02-Jan-2021 07:03:36 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Jan-2021 07:03:36 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Jan-2021 07:03:36 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Jan-2021 07:03:36 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Jan-2021 07:03:36 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[02-Jan-2021 07:03:36 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[02-Jan-2021 07:03:36 UTC] PHP   9. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:03:36 UTC] PHP  10. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:03:36 UTC] PHP  11. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:03:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:03:37 UTC] PHP Stack trace:
+[02-Jan-2021 07:03:37 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/index.php:0
+[02-Jan-2021 07:03:37 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/index.php:10
+[02-Jan-2021 07:03:37 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin.php:34
+[02-Jan-2021 07:03:37 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:03:37 UTC] PHP   5. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:03:37 UTC] PHP   6. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:03:37 UTC] PHP   7. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:03:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:03:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:03:37 UTC] PHP Stack trace:
+[02-Jan-2021 07:03:37 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:03:37 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:03:37 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:03:37 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:03:37 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:03:37 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:03:37 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:03:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:03:37 UTC] PHP Stack trace:
+[02-Jan-2021 07:03:37 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:03:37 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:03:37 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:03:37 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:03:37 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:03:37 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:03:37 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:04:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:04:38 UTC] PHP Stack trace:
+[02-Jan-2021 07:04:38 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:04:38 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:04:38 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:04:38 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:04:38 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:04:38 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:04:38 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:04:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:04:41 UTC] PHP Stack trace:
+[02-Jan-2021 07:04:41 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/index.php:0
+[02-Jan-2021 07:04:41 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/index.php:10
+[02-Jan-2021 07:04:41 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin.php:34
+[02-Jan-2021 07:04:41 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:04:41 UTC] PHP   5. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:04:41 UTC] PHP   6. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:04:41 UTC] PHP   7. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:04:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:04:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:04:41 UTC] PHP Stack trace:
+[02-Jan-2021 07:04:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'fairoak_post_types_portfolio' not found or invalid function name in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php on line 287
+[02-Jan-2021 07:04:41 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:04:41 UTC] PHP Stack trace:
+[02-Jan-2021 07:04:41 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:0
+[02-Jan-2021 07:04:41 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:04:41 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin-ajax.php:22
+[02-Jan-2021 07:04:41 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:04:41 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:04:41 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:04:41 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:04:41 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:04:41 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:04:41 UTC] PHP   5. do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-settings.php:557
+[02-Jan-2021 07:04:41 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:04:41 UTC] PHP   6. WP_Hook->do_action() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/plugin.php:484
+[02-Jan-2021 07:04:41 UTC] PHP   7. WP_Hook->apply_filters() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/class-wp-hook.php:311
+[02-Jan-2021 07:05:27 UTC] PHP Fatal error:  Cannot redeclare fairoak_post_types() (previously declared in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/mu-plugins/fairoak_post-types_portfolio.php:3) in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/mu-plugins/fairoak_post_types_article.php on line 3
+[02-Jan-2021 07:05:27 UTC] PHP Stack trace:
+[02-Jan-2021 07:05:27 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/index.php:0
+[02-Jan-2021 07:05:27 UTC] PHP   2. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/index.php:10
+[02-Jan-2021 07:05:27 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-admin/admin.php:34
+[02-Jan-2021 07:05:27 UTC] PHP   4. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-load.php:37
+[02-Jan-2021 07:05:27 UTC] PHP   5. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-config.php:77
+[02-Jan-2021 07:39:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/front-page.php on line 125
+[02-Jan-2021 07:51:44 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-content/themes/fairoakweb/front-page.php on line 119
+[02-Jan-2021 07:51:44 UTC] PHP Stack trace:
+[02-Jan-2021 07:51:44 UTC] PHP   1. {main}() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:0
+[02-Jan-2021 07:51:44 UTC] PHP   2. require() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/index.php:17
+[02-Jan-2021 07:51:44 UTC] PHP   3. require_once() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-blog-header.php:19
+[02-Jan-2021 07:51:44 UTC] PHP   4. include() /Users/anthonycroshaw/Local Sites/fair-oak-web-development/app/public/wp-includes/template-loader.php:106
