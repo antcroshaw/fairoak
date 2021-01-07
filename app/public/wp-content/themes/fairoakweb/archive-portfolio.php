@@ -19,12 +19,14 @@ get_header();
 
                 <div class="card-body">
                     <div class="row">
-                    <div class="col-6"><?php  the_post_thumbnail('index_page_portfolio');?></div>
-                        <div class="col-6 text-muted" ><?php the_excerpt(); ?></div></div>
+                        <div class="col-6 "><?php  the_post_thumbnail('index_page_portfolio');?></div>
+
+                        <div class="col-6 text-muted" ><?php the_excerpt(); ?></div>
                     <hr>
 
                         <p class="p-3 text-center"><a class="btn-sm btn-secondary" href="<?php  the_permalink();?>">Continue reading</a></p></div>
                 </div>
+            </div>
 
             <hr>
             <?php
